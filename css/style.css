@@ -12,8 +12,7 @@
 
 .nav {
     display: flex;
-    justify-content: flex-start;
-    /* Aligned left as per design usually, or grouped */
+    justify-content: center;
     align-items: center;
     gap: 40px;
 }
@@ -36,7 +35,6 @@
 }
 
 .nav-links {
-    width: 100%;
     display: flex;
     gap: 20px;
     background: rgba(255, 255, 255, 0.2);
