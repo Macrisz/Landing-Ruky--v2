@@ -10,6 +10,13 @@
     padding: 20px 0;
 }
 
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
 .nav {
     display: flex;
     justify-content: center;
