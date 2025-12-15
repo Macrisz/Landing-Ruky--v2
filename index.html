@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruky - Transforma tu granja</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Splash Screen -->
+    <div class="splash-screen">
+        <div class="splash-circle"></div>
+        <div class="splash-content">
+            <img src="assets/images/Logo APP 2.svg" alt="Ruky Logo" class="splash-logo">
+        </div>
+    </div>
+
+    <!-- Header (Hidden as per request) -->
+    <header class="header" style="display: none;">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo-container">
+                    <!-- SVG Logo Placeholder or simple text as per image red circle -->
+                    <div class="logo-real">
+                        <img src="assets/images/Logo APP 2.svg" alt="Ruky Logo" class="logo-img">
+                    </div>
+                </div>
+                <div class="nav-links">
+                    <a href="#" class="nav-link active">Inicio</a>
+                    <a href="#planes" class="nav-link">Planes</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <img src="assets/images/Logo APP 2.svg" alt="Ruky" class="hero-logo">
+            <h2>Transforma tu granja porcina</h2>
+            <p class="hero-description">
+                Únete a la nueva era de la porcicultura. Datos precisos, salud animal y eficiencia operativa en una sola
+                plataforma inmersiva.
+            </p>
+
+            <form class="hero-form">
+                <input type="email" placeholder="Tu correo electrónico" required>
+                <button type="submit" class="btn btn-primary">Solicitar Demo</button>
+            </form>
+
+            <div class="app-links">
+                <a href="#" class="app-btn">
+                    <img src="assets/images/apple.svg" alt="iOS" class="app-icon">
+                    iOS App
+                </a>
+                <a href="#" class="app-btn">
+                    <img src="assets/images/android.svg" alt="Android" class="app-icon">
+                    Android App
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing / Plans Section -->
+    <section class="plans" id="planes">
+        <div class="container">
+            <div class="plans-grid">
+                <!-- Basic Card -->
+                <div class="plan-card">
+                    <h3 class="plan-title">Básico</h3>
+                    <p class="plan-subtitle">Para pequeños productores.</p>
+                    <div class="plan-price">$ 300.000 cop <span class="plan-period">/ año.</span></div>
+                    <span class="plan-limit">0 - 100 Cerdos</span>
+
+                    <ul class="plan-features">
+                        <li>Registro básico de eventos.</li>
+                        <li>Alertas sanitarias</li>
+                        <li>Soporte por email</li>
+                        <li>Generación de reportes mensual</li>
+                    </ul>
+
+                    <button class="btn btn-primary">Comprar</button>
+                </div>
+
+                <!-- Intermediate Card -->
+                <div class="plan-card popular">
+                    <div class="popular-badge">POPULAR</div>
+                    <h3 class="plan-title">Intermedio</h3>
+                    <p class="plan-subtitle">Para granjas en crecimiento.</p>
+                    <div class="plan-price">$ 500.000 cop <span class="plan-period">/ año.</span></div>
+                    <span class="plan-limit">100 - 500 Cerdos</span>
+
+                    <ul class="plan-features">
+                        <li>Todo en Básico.</li>
+                        <li>Reportes en conversión avanzados</li>
+                        <li>Multi-usuario (hasta 3)</li>
+                        <li>Generación de reportes diarios</li>
+                    </ul>
+
+                    <button class="btn btn-primary">Comprar</button>
+                </div>
+
+                <!-- Premium Card -->
+                <div class="plan-card">
+                    <h3 class="plan-title">Premium</h3>
+                    <p class="plan-subtitle">Escalabilidad total.</p>
+                    <div class="plan-price">$ 500.000 cop <span class="plan-period">+ Variable</span></div>
+                    <p class="premium-note">Después de 500 <strong>$ 2.000
+                            cop</strong></p>
+                    <span class="plan-limit premium">Más de 500 cerdos</span>
+
+                    <ul class="plan-features">
+                        <li>Usuarios ilimitados</li>
+                        <li>Integración IA personalizada</li>
+                        <li>Soporte por email</li>
+                        <li>Asesoría técnica mensual</li>
+                    </ul>
+
+                    <button class="btn btn-primary">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+/* Global Styles & Variables */
+:root {
+    /* Colors */
+    --primary-color: #FF3F34;
+    --dark-color: #212121;
+    --light-gray: #F5F5F5;
+    --white: #FFFFFF;
+    --text-color: #333333;
+    --border-radius: 12px;
+
+    /* Fonts */
+    --font-primary: 'Roboto', sans-serif;
+    --font-serif: 'Playfair Display', serif;
+    /* For headings */
+
+    /* Spacing */
+    --container-width: 1200px;
+    --spacing-md: 1rem;
+    --spacing-lg: 2rem;
+    --spacing-xl: 4rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-primary);
+    color: var(--text-color);
+    background-color: var(--white);
+    line-height: 1.6;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url('../assets/images/fondo ruky.png');
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: var(--container-width);
+    margin: 0 auto;
+    padding: 0 var(--spacing-md);
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 50px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+    outline: none;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 63, 52, 0.3);
+}
